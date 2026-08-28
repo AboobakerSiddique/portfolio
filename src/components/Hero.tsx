@@ -55,14 +55,9 @@ export default function Hero() {
                 src={siteConfig.hero.portrait}
                 alt={`Portrait of ${siteConfig.person.name}`}
                 label="Replace with your portrait"
-                className="w-full h-full hairline-border shadow-[0_30px_80px_-20px_rgba(0,0,0,0.8)]"
-              />
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  boxShadow: "inset 0 -60px 60px -20px rgba(8,8,8,0.85)",
-                }}
+                fit="contain"
+                frameless
+                className="w-full h-full drop-shadow-[0_30px_60px_rgba(0,0,0,0.65)]"
               />
             </div>
           </Reveal>

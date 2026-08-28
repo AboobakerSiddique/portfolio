@@ -224,7 +224,7 @@ export const siteConfig = {
       ],
       github: "https://github.com/AboobakerSiddique/AI-Resume-Extractor",
       live: "",
-      featured: true,
+      featured: false,
     },
   ] satisfies Project[],
 
@@ -253,17 +253,31 @@ export const siteConfig = {
     ],
   },
 
-  featuredCaseStudy: {
-    projectId: "siddique-ai",
-    problem:
-      "Most AI chat tools reset context on every session and can't act on the local system. There was no lightweight, self-hosted companion that remembered conversations and could safely execute local tasks.",
-    approach:
-      "Built a full-stack Python application with a streaming-first architecture — every response is delivered token-by-token over Server-Sent Events, backed by a persistent SQLite memory layer.",
-    architecture:
-      "The backend routes requests to an LLM layer, a memory store, and a set of guarded local system tools, then streams the combined response back to a minimal dark interface.",
-    result:
-      "A working personal AI companion with real memory across sessions, live streaming responses, and controlled local tool execution — running entirely on Python.",
-  },
+  featuredCaseStudies: [
+    {
+      projectId: "siddique-ai",
+      problem:
+        "Most AI chat tools reset context on every session and can't act on the local system. There was no lightweight, self-hosted companion that remembered conversations and could safely execute local tasks.",
+      approach:
+        "Built a full-stack Python application with a streaming-first architecture — every response is delivered token-by-token over Server-Sent Events, backed by a persistent SQLite memory layer.",
+      architecture:
+        "The backend routes requests to an LLM layer, a memory store, and a set of guarded local system tools, then streams the combined response back to a minimal dark interface.",
+      result:
+        "A working personal AI companion with real memory across sessions, live streaming responses, and controlled local tool execution — running entirely on Python.",
+    },
+    {
+      projectId: "dripvault",
+      problem:
+        "People struggle to efficiently organize and style their existing wardrobe while accounting for personal aesthetics, occasions, weather, travel, and outfit variety.",
+      approach:
+        "Built an intelligent digital wardrobe that analyzes clothing with AI and generates context-aware outfits, while adding wardrobe analytics, weather-aware trip planning with smart packing, and complementary couple styling.",
+      architecture:
+        "Next.js + TypeScript frontend with Supabase Auth, PostgreSQL, RLS, and Storage, Gemini for AI-powered image analysis, and a custom compatibility engine for color theory, aesthetics, weather, outfit scoring, diversity, trip planning, and couple coordination.",
+      result:
+        "A production-oriented full-stack AI wardrobe platform featuring secure multi-user architecture, configurable AI usage credits, rate limiting, duplicate-request protection, admin monitoring, analytics, smart travel planning, and personalized outfit generation.",
+    },
+  ],
+  
 
   skills: {
     languages: ["Python", "SQL", "HTML", "CSS"],
