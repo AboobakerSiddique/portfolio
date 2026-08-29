@@ -195,7 +195,7 @@ export const siteConfig = {
         "Swagger / OpenAPI docs",
       ],
       github: "https://github.com/AboobakerSiddique/Student-Management-System",
-      live: "",
+      live: "https://drip-vault-drip-vault1.vercel.app/",
       featured: false,
     },
     {
