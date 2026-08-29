@@ -174,7 +174,7 @@ export const siteConfig = {
         "Mobile-first interface",
       ],
       github: "https://github.com/AboobakerSiddique/dripVault",
-      live: "",
+      live: "https://drip-vault-drip-vault1.vercel.app/",
       featured: true,
     },
     {
@@ -195,7 +195,7 @@ export const siteConfig = {
         "Swagger / OpenAPI docs",
       ],
       github: "https://github.com/AboobakerSiddique/Student-Management-System",
-      live: "https://drip-vault-drip-vault1.vercel.app/",
+      live: "",
       featured: false,
     },
     {
