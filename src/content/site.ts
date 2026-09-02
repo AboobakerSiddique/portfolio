@@ -178,8 +178,29 @@ export const siteConfig = {
       featured: true,
     },
     {
+  id: "github-intelligence",
+  number: "03",
+  title: "GITHUB INTELLIGENCE",
+  category: "FULL STACK / AI",
+  description:
+    "A full-stack engineering intelligence dashboard that analyzes any public GitHub repository and turns raw activity data into health scores, engineering metrics, and AI-generated insights. Built with a Next.js frontend and a FastAPI backend, it demonstrates end-to-end product development — from API design and data analysis to AI integration and production deployment.",
+  image: "/images/projects/github-repository-intelligence.png",
+  technologies: ["NEXT.JS", "REACT", "TYPESCRIPT", "FASTAPI", "PYTHON", "GEMINI API", "TAILWIND CSS"],
+  highlights: [
+    "Repository health scoring with breakdown of contributing factors",
+    "Activity, contributor, issue & PR analytics",
+    "AI-generated narrative insights via Google Gemini",
+    "Side-by-side repository comparison mode",
+    "Server-side caching to stay within GitHub API rate limits",
+    "Deployed with Vercel (frontend) + Render (backend)",
+  ],
+  github: "https://github.com/AboobakerSiddique/github-intelligence",
+  live: "https://github-intelligence-nine.vercel.app",
+  featured: true,
+},
+    {
       id: "student-management-system",
-      number: "03",
+      number: "04",
       title: "STUDENT MANAGEMENT SYSTEM",
       category: "PYTHON BACKEND",
       description:
@@ -200,7 +221,7 @@ export const siteConfig = {
     },
     {
       id: "aI-resume-extractor",
-      number: "04",
+      number: "05",
       title: "AI Resume Extractor",
       category: "AI RESUME PROCESSING",
       description:
@@ -251,6 +272,16 @@ export const siteConfig = {
       "COMPATIBILITY ENGINE",
       "OUTFIT",
     ],
+    "github-repository-intelligence": [
+  "USER",
+  "NEXT.JS FRONTEND",
+  "FASTAPI BACKEND",
+  "├── GITHUB CLIENT",
+  "├── GEMINI CLIENT",
+  "├── ANALYTICS ENGINE",
+  "└── RESPONSE CACHE",
+  "HEALTH SCORE + INSIGHTS",
+],
   },
 
   featuredCaseStudies: [
@@ -276,6 +307,17 @@ export const siteConfig = {
       result:
         "A production-oriented full-stack AI wardrobe platform featuring secure multi-user architecture, configurable AI usage credits, rate limiting, duplicate-request protection, admin monitoring, analytics, smart travel planning, and personalized outfit generation.",
     },
+    {
+  projectId: "github-intelligence",
+  problem:
+    "Developers evaluating a dependency or maintainers tracking project health have to manually dig through commits, issues, PRs, and contributor activity on GitHub to judge whether a repository is actually well-maintained.",
+  approach:
+    "Built a full-stack analysis tool that pulls repository activity data from the GitHub REST API and turns it into a composite health score, engineering and collaboration metrics, and AI-generated narrative insights, with a comparison mode for evaluating two repositories side by side.",
+  architecture:
+    "Next.js + TypeScript frontend deployed on Vercel, communicating with a FastAPI backend on Render that proxies and caches all GitHub API calls, computes health scoring and analytics, and generates narrative insights via the Gemini API — keeping all external API keys server-side.",
+  result:
+    "A production-deployed engineering intelligence platform with health scoring, activity and collaboration analytics, AI-generated insights, repository comparison, and server-side response caching to stay within GitHub API rate limits.",
+},
   ],
   
 
