@@ -272,16 +272,16 @@ export const siteConfig = {
       "COMPATIBILITY ENGINE",
       "OUTFIT",
     ],
-    "github-repository-intelligence": [
-  "USER",
-  "NEXT.JS FRONTEND",
-  "FASTAPI BACKEND",
-  "├── GITHUB CLIENT",
-  "├── GEMINI CLIENT",
-  "├── ANALYTICS ENGINE",
-  "└── RESPONSE CACHE",
-  "HEALTH SCORE + INSIGHTS",
-],
+    "github-intelligence": [
+      "USER",
+      "NEXT.JS FRONTEND",
+      "FASTAPI BACKEND",
+      "├── GITHUB CLIENT",
+      "├── GEMINI CLIENT",
+      "├── ANALYTICS ENGINE",
+      "└── RESPONSE CACHE",
+      "HEALTH SCORE + INSIGHTS",
+    ],
   },
 
   featuredCaseStudies: [
