@@ -326,7 +326,7 @@ export const siteConfig = {
 
   skills: {
     languages: ["Python", "SQL", "HTML", "CSS"],
-    backend: ["FastAPI", "REST APIs", "SQLAlchemy", "Pydantic", "SQLite"],
+    backend: ["FastAPI", "REST APIs", "SQLAlchemy", "Pydantic", "SQLite","Node.js"],
     authentication: [
       "JWT",
       "bcrypt",
@@ -365,6 +365,14 @@ export const siteConfig = {
   experience: [
     {
       number: "01",
+      role: "Full Stack Developer Intern",
+      company: "Syssian IT Solutions",
+      period: "Sep 2026 — ",
+      description:
+        "Developing and maintaining end-to-end web applications by designing high-fidelity prototypes in Figma and translating them into responsive, production-ready code.",
+    },
+    {
+      number: "02",
       role: "UI Designer",
       company: "Lofilute",
       period: "Jan 2024 — Nov 2024",
@@ -372,7 +380,7 @@ export const siteConfig = {
         "Designed responsive web and mobile interfaces, wireframes and high-fidelity prototypes using Figma.",
     },
     {
-      number: "02",
+      number: "03",
       role: "Graphic Designer",
       company: "Divegrid",
       period: "Dec 2024 — Feb 2025",
@@ -380,7 +388,7 @@ export const siteConfig = {
         "Designed digital marketing and branding assets while collaborating with cross-functional teams.",
     },
     {
-      number: "03",
+      number: "04",
       role: "Sales Staff",
       company: "Planet Jewel",
       period: "Jul 2024 — Sep 2024",
