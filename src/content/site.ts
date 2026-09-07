@@ -254,7 +254,7 @@ export const siteConfig = {
   category: "FULL STACK DEVELOPMENT",
   description:
     "A production-ready full-stack event feedback management system that allows users to explore events, submit feedback, and view submitted feedback through a connected frontend, backend API, and PostgreSQL database.",
-  image: "/images/projects/event-feedback-management-system.png",
+  image: "/images/projects/event-feedback-system.png",
   technologies: [
     "Next.js",
     "TypeScript",
